@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Runtime state files (rewritten constantly, may embed OAuth/session data)
+.claude.json
+.last-cleanup
+.oauth_refresh.lock.owner
+*.lock.owner
+
+# Backups of the runtime state files above
+backups/
+
+# Caches (regenerated automatically)
+cache/
+state/
+
+# Conversation/session data (transcripts, keys, per-project history — sensitive)
+projects/
+sessions/
+session-env/
+file-history/
+
+# Per-session/IDE ephemera
+ide/
+shell-snapshots/
+
+# Auto-synced content pulled from marketplaces (not user-authored, regenerated)
+plugins/synced/
+skills/synced/
+skills/.trash/
+
+# Generic hygiene
+*.log
+*.tmp
+*.swp
